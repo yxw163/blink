@@ -9,9 +9,9 @@
      })
    }
 
-   fn(2).then((num) => {
+   fn(2).then( num => {
      console.log('first:' + num)
      return num + 1
-   }).then((num) => {
+   }).then(num => {
      console.log('reject')
    })
