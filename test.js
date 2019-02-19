@@ -8,7 +8,7 @@
        }
      })
    }
-
+// Promise
    fn(2).then(num => {
      console.log('first:' + num)
      return num + 1
