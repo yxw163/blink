@@ -1,4 +1,4 @@
-   var fn = function (num) {
+   var fn = num => {
      return new Promise((resolve, reject) => {
        console.log('destion:' + num)
        if (typeof num == 'number') {
